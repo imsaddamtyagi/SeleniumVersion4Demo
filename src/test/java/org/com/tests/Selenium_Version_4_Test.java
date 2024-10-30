@@ -17,7 +17,7 @@ public class Selenium_Version_4_Test
 	@BeforeTest
 	public void InitializeSelenium()
 	{
-		  WebDriverManager.chromedriver().setup();
+		   WebDriverManager.chromedriver().setup();
           driver = new ChromeDriver();
           driver.manage().window().maximize();
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
