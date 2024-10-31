@@ -17,13 +17,13 @@ public class Selenium_Version_4_Test
 	@BeforeTest
 	public void InitializeSelenium()
 	{
-		   WebDriverManager.chromedriver().setup();
+		  WebDriverManager.chromedriver().setup();
           driver = new ChromeDriver();
           driver.manage().window().maximize();
+          System.out.println("Chrome Browser Opened");
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 	
 	}
-	
 	
 	
 	@Test
