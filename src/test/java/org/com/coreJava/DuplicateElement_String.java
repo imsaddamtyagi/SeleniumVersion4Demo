@@ -16,7 +16,7 @@ public class DuplicateElement_String
         {
             if (hm.containsKey(c)) 
             {
-            	hm.put(c, hm.get(c) + 1); //increment key value to 1  // To get Value of specific key use: hm.get(c)
+            	hm.put(c, hm.get(c) + 1); //increment key value to 1  
             } 
             else 
             {

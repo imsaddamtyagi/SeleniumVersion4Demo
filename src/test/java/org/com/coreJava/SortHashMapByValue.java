@@ -17,16 +17,16 @@ public class SortHashMapByValue {
 		                        hm.put("Five",5);
 		                        hm.put("Six",6);
 		                        
-		   List<Map.Entry<String,Integer>> MyList = new ArrayList<>(hm.entrySet());  // Create a List with HashMap.
+		   List<Map.Entry<String,Integer>> MyList = new ArrayList<>(hm.entrySet());         // Create a List with HashMap.
 		   MyList.sort((Entry1,Entry2) -> Entry1.getValue().compareTo(Entry2.getValue())); // Sort the List using Lambda.
 		   
 		   	   
-		   LinkedHashMap<String,Integer> SortedMap = new LinkedHashMap<>(); // Create An Empty Linked HashMap
+		   LinkedHashMap<String,Integer> SortedMap = new LinkedHashMap<>();              // Create An Empty Linked HashMap
 		
 		   
 		   for(Map.Entry<String, Integer> MyEntry: MyList)
 		   {
-			   SortedMap.put(MyEntry.getKey(),MyEntry.getValue());			  // Using for loop, enter the values in map   
+			   SortedMap.put(MyEntry.getKey(),MyEntry.getValue());			        // Using for loop, enter the values in map   
 		   }
 		   	   
 		  System.out.println("Printing Sorted HashMap:-");
@@ -36,8 +36,7 @@ public class SortHashMapByValue {
 			  System.out.println(MyEntry.getKey() +" "+MyEntry.getValue());
 			  
 		  }
-		      
-		      
+		      		      
 		      
 		      
 		                        
