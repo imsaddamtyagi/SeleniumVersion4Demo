@@ -1,4 +1,4 @@
-package org.com.coreJava;
+package org.com.Array_And_String;
 
 public class Reverse_Each_Characters_String
 {

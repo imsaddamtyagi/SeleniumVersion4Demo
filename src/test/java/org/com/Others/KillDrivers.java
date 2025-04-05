@@ -1,4 +1,4 @@
-package org.com.coreJava;
+package org.com.Others;
 
 import java.io.IOException;
 
