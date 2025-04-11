@@ -1,4 +1,4 @@
-package org.com.seleniumTests;
+package org.com.Selenium;
 
 import java.time.Duration;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package org.com.Array_And_String;
+package org.com.Strings;
 
 
 public class Array_ShiftRight

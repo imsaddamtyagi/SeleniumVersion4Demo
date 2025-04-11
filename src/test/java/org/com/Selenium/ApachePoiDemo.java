@@ -1,4 +1,4 @@
-package org.com.seleniumTests;
+package org.com.Selenium;
 
 import java.io.File;
 import java.io.FileInputStream;
