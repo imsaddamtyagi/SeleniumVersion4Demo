@@ -5,8 +5,6 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -23,9 +21,6 @@ public class Selenium_Version_4_Test
 	@BeforeTest
 	public void InitializeSelenium()
 	{
-		  ChromeOptions options = new ChromeOptions(); 
-		  options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); // For Jenkins
-		  driver = new ChromeDriver(options);
 		  driver.manage().window().maximize();
 		  driver.get(URL);
           System.out.println("Navigation Success");

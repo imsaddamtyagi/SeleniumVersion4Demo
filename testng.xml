@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.com.tests.Selenium_Version_4"/>
+      <class name="org.com.Selenium.Selenium_Version_4_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

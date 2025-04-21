@@ -1,4 +1,4 @@
-package org.com.Selenium;
+package org.com.Others;
 
 import java.io.File;
 import java.io.FileInputStream;
