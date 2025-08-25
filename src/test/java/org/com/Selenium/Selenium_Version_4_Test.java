@@ -22,11 +22,11 @@ public class Selenium_Version_4_Test
 	@BeforeTest
 	public void InitializeSelenium()
 	{
-		   driver = new ChromeDriver();
+		  driver = new ChromeDriver();
 		  driver.manage().window().maximize();
 		  driver.get(URL);
           System.out.println("Navigation Success");
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 	}
 	
 	
@@ -40,6 +40,9 @@ public class Selenium_Version_4_Test
         double durationInSeconds = duration / 1_000_000_000.0; 
         System.out.println("Time taken: " + durationInSeconds + " seconds");						
 	}
+	
+	
+	
 	
 	public void FluentWait()
 	{

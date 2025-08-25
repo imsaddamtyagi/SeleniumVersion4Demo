@@ -1,38 +1,39 @@
 package org.com.Strings;
 
 import java.util.HashMap;
+import java.util.Map;
 
-public class DuplicateElement_String 
-{
-    public static void main(String[] args) 
-    {
-        String str = "My name is khan";
-        
-        char[] arr = str.toCharArray();
-        
-        HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
-             
-        for (char c : arr)
-        {
-            if (hm.containsKey(c)) 
-            {
-            	hm.put(c, hm.get(c) + 1); //increment key value to 1  
-            } 
-            else 
-            {
-            	hm.put(c, 1);
-            }
+public class DuplicateElement_String {
+	
+    public static void main(String[] args) {
+    	
+        String str = "Lakkad de dunga bhen ke lode";
+
+        char arr[] = str.toCharArray();
+
+        HashMap<Character, Integer> MyHashMap = new HashMap<>();
+
+        for(char ch : arr)
+        {      	
+        	if(MyHashMap.containsKey(ch))
+        	{
+        	   MyHashMap.put(ch, MyHashMap.get(ch)+1);
+        	}
+        	else
+        	{
+        	   MyHashMap.put(ch,1);
+        	}
+        	
         }
         
         
-        System.out.println("Duplicate characters:");
-        
-        for (HashMap.Entry<Character, Integer> entry : hm.entrySet()) 
+    
+        for (Map.Entry<Character, Integer> entry : MyHashMap.entrySet()) 
         {
-            if (entry.getValue() > 1)
-            {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
-            }
+      
+                System.out.println(entry.getKey() + " : " + entry.getValue());
+         
+            
         }
     }
 }

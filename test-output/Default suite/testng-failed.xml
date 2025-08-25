@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.com.seleniumTests.Selenium_Version_4_Test">
+      <class name="org.com.Selenium.JavascriptExecutorDemo">
         <methods>
-          <include name="InitializeSelenium"/>
-          <include name="Selenium_Version_4_Launch"/>
+          <include name="JavascriptExecutor_Click"/>
         </methods>
-      </class> <!-- org.com.seleniumTests.Selenium_Version_4_Test -->
+      </class> <!-- org.com.Selenium.JavascriptExecutorDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

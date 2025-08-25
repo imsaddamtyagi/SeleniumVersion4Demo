@@ -1,7 +1,9 @@
 package org.com.Logic;
 
-public class PrimeNumberCheck {
-    public static boolean isPrime(int number) {
+public class PrimeNumberCheck
+{
+    public static boolean isPrime(int number) 
+    {
     	
     	
         if (number <= 1) {
