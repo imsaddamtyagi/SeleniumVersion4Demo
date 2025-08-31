@@ -11,9 +11,11 @@ public class PrimeNumberCheck
         }
         
         
-        for (int i = 2; i < number; i++) { // Check all numbers from 2 to number-1
-            if (number % i == 0) {
-                return false; // If divisible, it's not a prime number
+        for (int i = 2; i < number; i++)
+        { // Check all numbers from 2 to number 1
+            if (number % i == 0)
+            {
+                return false; // If divisible by any number than not a prime.
             }
             
             

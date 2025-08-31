@@ -1,6 +1,6 @@
 package org.com.Strings;
 
-public class Reverse_Each_Characters_String
+public class Reverse_Each_Word_String
 {
 		
 	public static void main(String[] args)
@@ -13,7 +13,7 @@ public class Reverse_Each_Characters_String
 		char [] arr2 = StringArr[1].toCharArray();
 		
 		reverse(arr1,0,arr1.length-1);  //{'H','u','s','a','i','n'}   Array Length = 6
-		reverse(arr2,0,arr2.length-1);  //{'T','y','a','g','i'}       Array Length = 5
+		reverse(arr2,0,arr2.length-1); // {'T','y','a','g','i'}       Array Length = 5
 			
 	}
 	

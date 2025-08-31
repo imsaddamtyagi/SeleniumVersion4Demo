@@ -134,7 +134,8 @@ public class JavascriptExecutorDemo
 	        WebElement otpField = driver.findElement(By.xpath(otpXPath));
 	        String otp = otpField.getAttribute("value");
 
-	        if (otp != null && otp.matches("\\d{6}")) {
+	        if (otp != null && otp.matches("\\d{6}")) 
+	        {
 	            System.out.println("✅ 6-digit OTP entered: " + otp);
 	            WebElement signInButton = driver.findElement(By.xpath(signInXPath));
 	            signInButton.click();

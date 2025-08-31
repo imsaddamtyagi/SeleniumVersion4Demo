@@ -10,8 +10,8 @@ public class KillDrivers {
    public void KillChromeDriver() throws IOException, InterruptedException
     {
         
-            @SuppressWarnings("deprecation")
-			Process process = Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe /T");
+	   ProcessBuilder builder = new ProcessBuilder("taskkill", "/F", "/IM", "chromedriver.exe", "/T");
+	   Process process = builder.start();
             process.waitFor();
             
             if (process.exitValue() == 0) 
@@ -27,10 +27,10 @@ public class KillDrivers {
   public void KillEdge() throws IOException, InterruptedException
     {
      
-         @SuppressWarnings("deprecation")
-			Process process = Runtime.getRuntime().exec("taskkill /F /IM msedge.exe /T");
-         process.waitFor();
-         
+	    ProcessBuilder builder = new ProcessBuilder("taskkill", "/F", "/IM", "msedge.exe", "/T");
+	    Process process = builder.start();
+	    process.waitFor();
+	    
          if (process.exitValue() == 0) 
          {
              System.out.println("All Edge Browser were successfully terminated.");

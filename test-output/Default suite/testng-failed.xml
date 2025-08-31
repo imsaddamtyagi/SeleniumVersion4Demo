@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.com.Selenium.JavascriptExecutorDemo">
+      <class name="org.com.Selenium.BrokenLinksChecker">
         <methods>
-          <include name="JavascriptExecutor_Click"/>
+          <include name="GetBrokenLinks"/>
         </methods>
-      </class> <!-- org.com.Selenium.JavascriptExecutorDemo -->
+      </class> <!-- org.com.Selenium.BrokenLinksChecker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

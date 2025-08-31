@@ -53,10 +53,13 @@ public class ApachePoiDemo {
 	    Object[][] data = new Object[totalRows][totalCells]; 
 	    
 
-	    for (int i = 0; i < totalRows; i++) { 
+	    for (int i = 0; i < totalRows; i++) 
+	    { 
 	        XSSFRow row = sheet.getRow(i);  
-	        if (row != null) {
-	    for (int k = 0; k < totalCells; k++) {
+	        if (row != null) 
+	        {
+	    for (int k = 0; k < totalCells; k++) 
+	    {
 	        XSSFCell cell = row.getCell(k);
 	        data[i][k] = (cell != null) ? cell.toString() : "";
 	            }

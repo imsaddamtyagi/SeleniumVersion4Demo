@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T22:01:44 IST" name="Default suite" finished-at="2025-08-22T22:02:23 IST" duration-ms="39250">
+  <suite started-at="2025-08-31T18:10:45 IST" name="Default suite" finished-at="2025-08-31T18:10:45 IST" duration-ms="393">
     <groups>
     </groups>
-    <test started-at="2025-08-22T22:01:44 IST" name="Default test" finished-at="2025-08-22T22:02:23 IST" duration-ms="39250">
-      <class name="org.com.Selenium.JavascriptExecutorDemo">
-        <test-method signature="JavascriptExecutor_Click()[pri:0, instance:org.com.Selenium.JavascriptExecutorDemo@5542c4ed]" started-at="2025-08-22T22:01:44 IST" name="JavascriptExecutor_Click" finished-at="2025-08-22T22:02:23 IST" duration-ms="39176" status="PASS">
+    <test started-at="2025-08-31T18:10:45 IST" name="Default test" finished-at="2025-08-31T18:10:45 IST" duration-ms="393">
+      <class name="org.com.Others.KillDrivers">
+        <test-method signature="KillEdge()[pri:0, instance:org.com.Others.KillDrivers@327514f]" started-at="2025-08-31T18:10:45 IST" name="KillEdge" finished-at="2025-08-31T18:10:45 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JavascriptExecutor_Click -->
-      </class> <!-- org.com.Selenium.JavascriptExecutorDemo -->
+        </test-method> <!-- KillEdge -->
+      </class> <!-- org.com.Others.KillDrivers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
