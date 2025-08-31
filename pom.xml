@@ -82,14 +82,8 @@
              <artifactId>mysql-connector-java</artifactId>
              <version>${mysql.version}</version>
           </dependency>
-
-
-           <dependency>
-           	<groupId>Appium_Demo</groupId>
-           	<artifactId>Appium_Demo</artifactId>
-           	<version>0.0.1-SNAPSHOT</version>
-           </dependency>
-	    </dependencies>
+          
+              </dependencies>
 	 
 	    <build>
 	        <plugins>
