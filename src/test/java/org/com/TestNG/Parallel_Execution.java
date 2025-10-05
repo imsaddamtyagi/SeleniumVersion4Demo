@@ -1,4 +1,4 @@
-package org.com.Selenium;
+package org.com.TestNG;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
