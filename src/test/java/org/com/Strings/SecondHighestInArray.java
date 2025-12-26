@@ -16,7 +16,7 @@ public class SecondHighestInArray
 		{
 			if(Max<Arr[i])
 			{
-				Max=Arr[i];
+			   Max=Arr[i];
 				
 			}
 		}

@@ -1,90 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<suite name="Test in Groups">
-
-<test name ="First test in Group">
-
-	<groups>
-			<run>
-				<include name ="TestOnChrome"/>
-			</run>
-	</groups>
-
-
-	<classes>
-		<class name="org.com.TestNG.Group_Testng"/>  
-	</classes>
-
-</test>
-
-<test name ="Second test in Group">
-
-	<groups>
-			<run>
-				<include name ="TestOnEdge"/>
-			</run>
-	</groups>
-
-
-	<classes>
-		<class name="org.com.TestNG.Group_Testng"/>
-	</classes>
-
-</test>
-
-
-
-</suite>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<suite name="Suite" parallel="methods" thread-count="2">
-
-  <test name="ChromeDriverAndEdgeDriverTest">
-  
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="org.com.Selenium.Parallel_Execution"/>
+      <class name="org.com.Selenium.Selenium_Version_4_Test"/>
     </classes>
-    
-  </test> 
-  
-</suite> 
--->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -23,11 +23,15 @@ public class PrimeNumberCheck
         return true; // Otherwise, it's prime
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int num = 29; // Replace with the number you want to check
-        if (isPrime(num)) {
+        if (isPrime(num)) 
+        {
             System.out.println(num + " is a prime number.");
-        } else {
+        } 
+        else 
+        {
             System.out.println(num + " is not a prime number.");
         }
     }

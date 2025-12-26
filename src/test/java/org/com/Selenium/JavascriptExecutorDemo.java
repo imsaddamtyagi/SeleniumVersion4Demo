@@ -66,7 +66,9 @@ public class JavascriptExecutorDemo
 	    long startTime = System.currentTimeMillis();
 
 	    FluentWait<WebDriver> wait = new FluentWait<>(driver)
-	   .withTimeout(Duration.ofSeconds(seconds)).pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
+	   .withTimeout(Duration.ofSeconds(seconds))
+	   .pollingEvery(Duration.ofSeconds(2))
+	   .ignoring(NoSuchElementException.class);
 	    WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
 	    
 	    long endTime = System.currentTimeMillis();

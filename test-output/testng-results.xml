@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-16T23:28:42 IST" name="Test in Groups" finished-at="2025-09-16T23:29:00 IST" duration-ms="18482">
+  <suite started-at="2025-12-26T23:25:43 IST" name="Default suite" finished-at="2025-12-26T23:26:16 IST" duration-ms="33774">
     <groups>
-      <group name="TestOnChrome">
-        <method signature="Group_Testng.Test_One_OnChrome_Test()[pri:0, instance:org.com.TestNG.Group_Testng@4c402120]" name="Test_One_OnChrome_Test" class="org.com.TestNG.Group_Testng"/>
-        <method signature="Group_Testng.Test_Two_OnChrome_Test()[pri:0, instance:org.com.TestNG.Group_Testng@4c402120]" name="Test_Two_OnChrome_Test" class="org.com.TestNG.Group_Testng"/>
-      </group> <!-- TestOnChrome -->
-      <group name="TestOnEdge">
-        <method signature="Group_Testng.Test_One_OnEdge_Test()[pri:0, instance:org.com.TestNG.Group_Testng@5fbe4146]" name="Test_One_OnEdge_Test" class="org.com.TestNG.Group_Testng"/>
-        <method signature="Group_Testng.Test_Two_OnEdge_Test()[pri:0, instance:org.com.TestNG.Group_Testng@5fbe4146]" name="Test_Two_OnEdge_Test" class="org.com.TestNG.Group_Testng"/>
-      </group> <!-- TestOnEdge -->
     </groups>
-    <test started-at="2025-09-16T23:28:42 IST" name="First test in Group" finished-at="2025-09-16T23:28:51 IST" duration-ms="9486">
-      <class name="org.com.TestNG.Group_Testng">
-        <test-method signature="Test_One_OnChrome_Test()[pri:0, instance:org.com.TestNG.Group_Testng@4c402120]" started-at="2025-09-16T23:28:42 IST" name="Test_One_OnChrome_Test" finished-at="2025-09-16T23:28:49 IST" duration-ms="6615" status="PASS">
+    <test started-at="2025-12-26T23:25:43 IST" name="Default test" finished-at="2025-12-26T23:26:16 IST" duration-ms="33774">
+      <class name="org.com.Selenium.Selenium_Version_4_Test">
+        <test-method is-config="true" signature="InitializeSelenium_Version_4()[pri:0, instance:org.com.Selenium.Selenium_Version_4_Test@65e98b1c]" started-at="2025-12-26T23:25:43 IST" name="InitializeSelenium_Version_4" finished-at="2025-12-26T23:25:45 IST" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_One_OnChrome_Test -->
-        <test-method signature="Test_Two_OnChrome_Test()[pri:0, instance:org.com.TestNG.Group_Testng@4c402120]" started-at="2025-09-16T23:28:49 IST" name="Test_Two_OnChrome_Test" finished-at="2025-09-16T23:28:51 IST" duration-ms="2780" status="PASS">
+        </test-method> <!-- InitializeSelenium_Version_4 -->
+        <test-method signature="Selenium_Version_4_Launch()[pri:0, instance:org.com.Selenium.Selenium_Version_4_Test@65e98b1c]" started-at="2025-12-26T23:25:45 IST" name="Selenium_Version_4_Launch" finished-at="2025-12-26T23:26:16 IST" duration-ms="31687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Two_OnChrome_Test -->
-      </class> <!-- org.com.TestNG.Group_Testng -->
-    </test> <!-- First test in Group -->
-    <test started-at="2025-09-16T23:28:51 IST" name="Second test in Group" finished-at="2025-09-16T23:29:00 IST" duration-ms="8908">
-      <class name="org.com.TestNG.Group_Testng">
-        <test-method signature="Test_One_OnEdge_Test()[pri:0, instance:org.com.TestNG.Group_Testng@5fbe4146]" started-at="2025-09-16T23:28:51 IST" name="Test_One_OnEdge_Test" finished-at="2025-09-16T23:28:56 IST" duration-ms="4206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_One_OnEdge_Test -->
-        <test-method signature="Test_Two_OnEdge_Test()[pri:0, instance:org.com.TestNG.Group_Testng@5fbe4146]" started-at="2025-09-16T23:28:56 IST" name="Test_Two_OnEdge_Test" finished-at="2025-09-16T23:29:00 IST" duration-ms="4686" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Two_OnEdge_Test -->
-      </class> <!-- org.com.TestNG.Group_Testng -->
-    </test> <!-- Second test in Group -->
-  </suite> <!-- Test in Groups -->
+        </test-method> <!-- Selenium_Version_4_Launch -->
+      </class> <!-- org.com.Selenium.Selenium_Version_4_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

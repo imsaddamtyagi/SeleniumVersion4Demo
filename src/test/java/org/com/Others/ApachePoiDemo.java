@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ApachePoiDemo {
 	
 	
-	@Test(enabled=true,dataProvider="GetDataMethod")
+	@Test(dataProvider="GetDataMethod")
 	public void GetEntireData(String LoanNo, String Name, String Bank,String Amount)
 	{
         System.out.println("Data from excell is: ");
@@ -25,7 +25,7 @@ public class ApachePoiDemo {
 	
 	
 	@DataProvider
-	Object[][] GetDataMethod() throws IOException
+	public Object[][] GetDataMethod() throws IOException
 	{
 		
 		Object[][] DataObject = readExcelFile("PersonalLoan"); //FirstSheetFromExcel
@@ -36,7 +36,7 @@ public class ApachePoiDemo {
 	
 	Object[][] readExcelFile(String firstSheetFromExcel) throws IOException 
 	{
-		 String ExcelfilePath = System.getProperty("user.dir") + "/testData/"+"//LoanData.xlsx";
+		 String ExcelfilePath = System.getProperty("user.dir") + "/testData/"+"/LoanData.xlsx";
 		
 		File fs = new File(ExcelfilePath);	
 	    FileInputStream fis = new FileInputStream(fs);
@@ -44,7 +44,8 @@ public class ApachePoiDemo {
 	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
 	    XSSFSheet sheet = workbook.getSheet(firstSheetFromExcel);
                              
-	    int totalRows  =  sheet.getLastRowNum()+1; // Real Count = Index+1. 
+	    int totalRows  =  sheet.getLastRowNum()+1;   // count of rows including the header.
+
 	    int totalCells =  sheet.getRow(0).getLastCellNum();
 	    
 	    System.out.print("Total rows in Excel Sheet->"+totalRows);
@@ -70,12 +71,7 @@ public class ApachePoiDemo {
 	    return data;
 	}
 
-	
-	  
-	
-	
-	
-	
+
     @Test(enabled=false)
     public void getIndividualData() throws IOException   
     {

@@ -10,8 +10,8 @@ public class Demo_Jdbc
 {
 	
 	static Connection connection;
-	static Statement statement;
-	static ResultSet result;
+	static Statement  statement;
+	static ResultSet  result;
 	
 	
 	public static void main(String[] args) throws ClassNotFoundException, SQLException
