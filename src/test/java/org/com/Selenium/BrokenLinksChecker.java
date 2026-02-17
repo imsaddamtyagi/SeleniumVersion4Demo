@@ -24,7 +24,7 @@ public class BrokenLinksChecker {
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
         System.out.println("🔍 Total links found: " + allLinks.size());
 
-        int validLinks = 0;
+        int validLinks  = 0;
         int brokenLinks = 0;
 
 

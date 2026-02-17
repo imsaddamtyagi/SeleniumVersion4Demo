@@ -18,7 +18,7 @@ public class HashMapSort {
    
      List<Map.Entry<String,Integer>> MyList = new ArrayList<>(MyHashMap.entrySet());
      
-     MyList.sort((Entry1,Entry2)-> Entry1.getValue().compareTo(Entry2.getValue()) );
+     MyList.sort((Entry1,Entry2)-> Entry1.getValue().compareTo(Entry2.getValue()));
      
      
     LinkedHashMap<String,Integer> MyLinkedHashMap = new  LinkedHashMap<>();
