@@ -6,16 +6,17 @@ public class PrimeNumberCheck
     {
     	
     	
-        if (number <= 1) {
+        if (number <= 1)
+        {
             return false; // Numbers less than or equal to 1 are not prime
         }
         
         
         for (int i = 2; i < number; i++)
-        { // Check all numbers from 2 to number 1
-            if (number % i == 0)
+        { 
+            if (number % i == 0)   // Check all numbers from 2 to number 
             {
-                return false; // If divisible by any number than not a prime.
+                return false;     // If divisible by any number than not a prime.
             }
             
             
